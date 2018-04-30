@@ -31,4 +31,4 @@ deploy:
 notifications:
     email:
       recipients:
-	    - shoook88@gmail.com
+        - shoook88@gmail.com
