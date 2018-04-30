@@ -40,7 +40,7 @@ deploy:
     bucket: springboot-webservice-build # 6-3-3에서 생성한 S3 버킷
     key: spring-webservice.zip #s3 버킷에 저장된 spring-webservice.zip 파일을 ec2로 배포
     bundle_type: zip
-    application: spring-webservice # 웹 콘솔에서 등록한 codeDeploy 어플리케이션
+    application: springboot-webservice # 웹 콘솔에서 등록한 codeDeploy 어플리케이션
     deployment_group: springboot-webservice-group # 웹 콘솔에서 등록한 CodeDeploy 배포 그룹
     region: ap-northeast-2
     wait-until-deployed: true
